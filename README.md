@@ -14,7 +14,8 @@ forge remappings > remappings.txt
 ```
 
 
-## Run
+## Test
+Run against a mainnet fork:
 ```
 forge run ./src/Contract.sol -vvvv --rpc-url ${MAINNET_URL}
 ```
