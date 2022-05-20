@@ -51,6 +51,11 @@ contract LilNounsBidder is Ownable {
             lilNounsAuctionHouse
         ).auction();
 
+        require(
+            block.timestamp < _auction.endTime,
+            "Auction has already has a winner"
+        );
+
         uint256 minimumBid = _minBid(_auction);
 
         require(
