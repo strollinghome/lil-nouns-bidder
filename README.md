@@ -1,7 +1,5 @@
 # Lil Nouns Bidder
 
-
-Install forge
 ## Install Foundry
 See the [Foudry Github](https://github.com/gakonst/foundry#installation) repo for installation.
 
